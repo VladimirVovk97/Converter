@@ -1,0 +1,55 @@
+
+.form-section{
+    display: flex;
+    margin-left: 50px;
+}
+
+.form {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 570px;
+      margin-left: 0;
+      margin-right: 0;
+    
+  }
+
+  .form__title {
+    margin-bottom: 20px;
+    color: $first-text-color;
+    font-size:25px;
+    font-weight: 600;
+  }
+
+  .subscribe-field {
+      display: flex;
+      flex-direction: row;
+
+  }
+  
+
+  .subscribe-field__form-input {
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  
+      margin-bottom: 0;
+      margin-right: 12px;
+      width: 358px;
+      cursor: pointer;
+
+      &:hover ,
+      &:focus {
+        fill: $accent-color;
+        cursor: pointer;
+      }
+    
+      &:hover ,
+      &:focus {
+        cursor: pointer;
+        outline: none;
+        border: 1px solid $accent-color;
+      }
+    }
+  

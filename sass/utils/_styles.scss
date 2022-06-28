@@ -1,0 +1,47 @@
+html {
+    min-height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $first-text-color;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    // padding-top: 80px; -- Для хедера
+   
+    font-family: $main-font;
+    background: radial-gradient(at top left,#622758,transparent),radial-gradient(at top right,#625027,transparent),radial-gradient(at bottom right,#276232,transparent),radial-gradient(at bottom left,#273a62,transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

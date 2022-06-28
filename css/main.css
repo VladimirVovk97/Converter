@@ -1,0 +1,215 @@
+html {
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: aliceblue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+  background: radial-gradient(at top left, #622758, transparent), radial-gradient(at top right, #625027, transparent), radial-gradient(at bottom right, #276232, transparent), radial-gradient(at bottom left, #273a62, transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+}
+
+.header {
+  height: 250px;
+  border-bottom: 1px solid rgb(76, 175, 80);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  color: #212121;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-left: 50px;
+}
+
+.logo__part--black {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo__part--accent {
+  color: rgb(76, 175, 80);
+}
+
+.logo__part--white {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.courses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.course-box {
+  border: 1px solid rgb(76, 175, 80);
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: rgb(2, 0, 36);
+  background: -webkit-gradient(linear, left top, right top, from(rgb(2, 0, 36)), color-stop(35%, rgba(8, 113, 19, 0.9023984594)), to(rgb(26, 30, 31)));
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(8, 113, 19, 0.9023984594) 35%, rgb(26, 30, 31) 100%);
+}
+.course-box:not(:first-child) {
+  margin-left: 50px;
+}
+
+.course-box__title {
+  color: rgb(255, 255, 255);
+  border-bottom: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.course-box__value {
+  color: white;
+  text-align: center;
+}
+
+.section-hero {
+  max-width: 1170px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.2)), to(rgba(47, 48, 58, 0.2)));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2));
+}
+
+.main-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.second-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.form-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 570px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form__title {
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subscribe-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.subscribe-field__form-input {
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-bottom: 0;
+  margin-right: 12px;
+  width: 358px;
+  cursor: pointer;
+}
+.subscribe-field__form-input:hover, .subscribe-field__form-input:focus {
+  fill: rgb(76, 175, 80);
+  cursor: pointer;
+}
+.subscribe-field__form-input:hover, .subscribe-field__form-input:focus {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(76, 175, 80);
+}/*# sourceMappingURL=main.css.map */

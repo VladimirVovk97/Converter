@@ -1,0 +1,35 @@
+.courses{
+    display: flex;
+    margin-left: 50px;
+}
+
+.course-box{
+    
+    border: 1px solid $accent-color;
+    padding: 15px 30px;
+    border-radius: 5px;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,113,19,0.9023984593837535) 35%, rgba(26,30,31,1) 100%);
+
+    &:not(:first-child){
+        margin-left: 50px;
+    }
+}
+
+
+.course-box__title{
+
+    color: rgb(255, 255, 255);
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+.course-box__value{
+    color: white;
+    
+    text-align: center;
+}
